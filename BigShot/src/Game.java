@@ -19,8 +19,8 @@ public class Game extends SimpleApp
 	 */
 	public void setupApp(GraphicsContext gc)
 	{
-		gc.setFont(new Font(50));
-		gc.setFill(Color.MEDIUMVIOLETRED);
+		gc.setFont(new Font(150));
+		gc.setFill(Color.ROYALBLUE);
 		gc.setTextAlign(TextAlignment.CENTER);
 	}
 	
@@ -30,7 +30,7 @@ public class Game extends SimpleApp
 	 */
 	public void draw(GraphicsContext gc)
 	{
-		gc.fillText("Hello Everyone!", getWidth()/2, getHeight()/2);
+		gc.fillText("Hello!\n This is Julia!! :)", getWidth()/2, getHeight()/2);
 	}
 
 	/**
